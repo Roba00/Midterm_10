@@ -1,0 +1,28 @@
+{
+    "phones": [
+    {
+        "phoneId": "1",
+        "brand": "Apple",
+        "price": 399.99,
+        "image": "./iphone11.jpg"
+    },
+    {
+        "phoneId": "2",
+        "brand": "Apple",
+        "price": 399.99,
+        "image": "./iphone12.jpg"
+    },
+    {
+        "phoneId": "3",
+        "brand": "Samsung",
+        "price": 399.99,
+        "image": "./samsunga54.jpg"
+    },
+    {
+        "phoneId": "4",
+        "brand": "Samsung",
+        "price": 399.99,
+        "image": "./samsungs21.jpg"
+    }
+    ]
+}
