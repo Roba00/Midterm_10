@@ -1,4 +1,8 @@
+.carousel-caption {
+    top: 5%;
+    bottom: auto;
+}
+
 .carousel-inner > .carousel-item > img {
-    width:640px;
-    height:360px;
+    height:500px;
 }
