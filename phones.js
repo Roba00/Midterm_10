@@ -16,7 +16,7 @@ function loadPhones(myPhones) {
     var phonePrice3 = document.getElementById("phonePrice3");
     var phonePrice4 = document.getElementById("phonePrice4");
 
-    for (var i = 0; i < myPhones.phones.length; i++){
+    for (var i = 0; i < myPhones.phones.length; i++) {
         let productId = myPhones.phones[i].productId;
         let brand = myPhones.phones[i].brand;
         let price = myPhones.phones[i].price;

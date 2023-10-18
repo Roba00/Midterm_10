@@ -25,8 +25,8 @@ userSelect.addEventListener("change", () => {
                             userWishlist.innerHTML = "";
                             for (itemId of userResponse.wishlist) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userWishlist.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'>
+                                userWishlist.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'>
                                     <img src='${product.image}' class='card-img' />
                                     <div class='card-body text-center'>
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4>
@@ -38,8 +38,8 @@ userSelect.addEventListener("change", () => {
                             userCart.innerHTML = "";
                             for (itemId of userResponse.cart) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userCart.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'> +
+                                userCart.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'> +
                                     <img src='${product.image}' class='card-img' /> +
                                     <div class='card-body text-center'> +
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4> +
@@ -51,8 +51,8 @@ userSelect.addEventListener("change", () => {
                             userRecentlyPurchased.innerHTML = "";
                             for (itemId of userResponse.recentlyPurchased) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userRecentlyPurchased.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'> +
+                                userRecentlyPurchased.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'> +
                                     <img src='${product.image}' class='card-img' /> +
                                     <div class='card-body text-center'> +
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4> +
@@ -81,8 +81,8 @@ userSelect.addEventListener("change", () => {
                             userWishlist.innerHTML = "";
                             for (itemId of userResponse.wishlist) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userWishlist.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'>
+                                userWishlist.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'>
                                     <img src='${product.image}' class='card-img' />
                                     <div class='card-body text-center'>
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4>
@@ -94,8 +94,8 @@ userSelect.addEventListener("change", () => {
                             userCart.innerHTML = "";
                             for (itemId of userResponse.cart) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userCart.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'> +
+                                userCart.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'> +
                                     <img src='${product.image}' class='card-img' /> +
                                     <div class='card-body text-center'> +
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4> +
@@ -107,8 +107,8 @@ userSelect.addEventListener("change", () => {
                             userRecentlyPurchased.innerHTML = "";
                             for (itemId of userResponse.recentlyPurchased) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userRecentlyPurchased.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'> +
+                                userRecentlyPurchased.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'> +
                                     <img src='${product.image}' class='card-img' /> +
                                     <div class='card-body text-center'> +
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4> +
@@ -137,8 +137,8 @@ userSelect.addEventListener("change", () => {
                             userWishlist.innerHTML = "";
                             for (itemId of userResponse.wishlist) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userWishlist.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'>
+                                userWishlist.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'>
                                     <img src='${product.image}' class='card-img' />
                                     <div class='card-body text-center'>
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4>
@@ -150,8 +150,8 @@ userSelect.addEventListener("change", () => {
                             userCart.innerHTML = "";
                             for (itemId of userResponse.cart) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userCart.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'> +
+                                userCart.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'> +
                                     <img src='${product.image}' class='card-img' /> +
                                     <div class='card-body text-center'> +
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4> +
@@ -163,8 +163,8 @@ userSelect.addEventListener("change", () => {
                             userRecentlyPurchased.innerHTML = "";
                             for (itemId of userResponse.recentlyPurchased) {
                                 product = products.filter((product) => product.productId == itemId)[0];
-                                userRecentlyPurchased.innerHTML += 
-                                `<div class='card text-bg-light p-0 w-50 h-50'> +
+                                userRecentlyPurchased.innerHTML +=
+                                    `<div class='card text-bg-light p-0 w-50 h-50'> +
                                     <img src='${product.image}' class='card-img' /> +
                                     <div class='card-body text-center'> +
                                         <h4 class='card-title'>${product.brand + " " + product.title}</h4> +
