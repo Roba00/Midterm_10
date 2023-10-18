@@ -1,28 +1,48 @@
 {
     "phones": [
-    {
-        "phoneId": "1",
-        "brand": "Apple",
-        "price": 399.99,
-        "image": "./iphone11.jpg"
-    },
-    {
-        "phoneId": "2",
-        "brand": "Apple",
-        "price": 399.99,
-        "image": "./iphone12.jpg"
-    },
-    {
-        "phoneId": "3",
-        "brand": "Samsung",
-        "price": 399.99,
-        "image": "./samsunga54.jpg"
-    },
-    {
-        "phoneId": "4",
-        "brand": "Samsung",
-        "price": 399.99,
-        "image": "./samsungs21.jpg"
-    }
+        {
+            "phoneId": "1",
+            "brand": "Apple",
+            "price": 399.99,
+            "image": "./iphone11.jpg"
+        },
+        {
+            "phoneId": "2",
+            "brand": "Apple",
+            "price": 399.99,
+            "image": "./iphone12.jpg"
+        },
+        {
+            "phoneId": "3",
+            "brand": "Samsung",
+            "price": 399.99,
+            "image": "./samsunga54.jpg"
+        },
+        {
+            "phoneId": "4",
+            "brand": "Samsung",
+            "price": 399.99,
+            "image": "./samsungs21.jpg"
+        }
+    ],
+    "users" : [
+        {
+            "id" : "1",
+            "name" : "The Rock",
+            "location" : "Beverly Parks, Los Angeles",
+            "image" : "./images/users/Dwayne-Johnson.jpg"
+        },
+        {
+            "id" : "2",
+            "name" : "Marques Brownlee",
+            "location" : "Kearny, New Jersy",
+            "image" : "./images/users/maques-brownlee.jpg"
+        },
+        {
+            "id" : "3",
+            "name" : "Michael B Jordan",
+            "location" : "Jupiter, Florida",
+            "image" : "./images/users/Michael-B-Jordan.jpg"
+        }
     ]
 }
