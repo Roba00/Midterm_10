@@ -30,19 +30,28 @@
             "id" : "1",
             "name" : "The Rock",
             "location" : "Beverly Parks, Los Angeles",
-            "image" : "./images/users/Dwayne-Johnson.jpg"
+            "image" : "./images/users/Dwayne-Johnson.jpg",
+            "wishlist" : [
+                ""
+            ]
         },
         {
             "id" : "2",
             "name" : "Marques Brownlee",
             "location" : "Kearny, New Jersy",
-            "image" : "./images/users/maques-brownlee.jpg"
+            "image" : "./images/users/maques-brownlee.jpg",
+            "wishlist" : [
+                
+            ]
         },
         {
             "id" : "3",
             "name" : "Michael B Jordan",
             "location" : "Jupiter, Florida",
-            "image" : "./images/users/Michael-B-Jordan.jpg"
+            "image" : "./images/users/Michael-B-Jordan.jpg",
+            "wishlist" : [
+                
+            ]
         }
     ]
 }
